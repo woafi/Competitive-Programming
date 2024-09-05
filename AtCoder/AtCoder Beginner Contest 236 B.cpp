@@ -1,5 +1,3 @@
-//https://atcoder.jp/contests/abc236/tasks/abc236_b?lang=en
-
 #include <iostream>
 
 using namespace std;
