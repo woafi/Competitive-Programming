@@ -1,0 +1,15 @@
+#include <bits/stdc++.h>
+using namespace std;
+signed main()
+{
+    int t;
+    cin >> t;
+    while (t--)
+    {
+        int n, x, ans = 0;
+        cin >> n;
+        for (int i = 1; i <= n; i++)
+            cin >> x, ans = max(ans, x + (i % 2 ? (n + 1) / 2 : n / 2));
+        cout << ans << endl;
+    }
+}
