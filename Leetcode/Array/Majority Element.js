@@ -1,3 +1,4 @@
+//Boyer-Moore Voting Algorithm  This algorithm assumes there is a majority element (an element appearing more than n/2
 let nums = [2,2,1,1,1,2,2];
 let count = 1;
     let el = nums[0];
