@@ -26,6 +26,7 @@ public class chcekIfAllCharSame {
 
 
 
+
         int[] counts = new int[26];
 
         for (char c : s.toCharArray()) {
@@ -43,10 +44,13 @@ public class chcekIfAllCharSame {
             }
         }
         return true;
+
+
+
     }
 
     public static void main(String[] args) {
-        String str = "aaabb";
+        String str = "aaabbb";
         System.out.println(areOccurrencesEqual(str));
     }
 }
